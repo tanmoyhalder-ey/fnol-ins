@@ -1,0 +1,18 @@
+---
+SPEECH_TO_TEXT_ENDPOINT : "https://northcentralus.api.cognitive.microsoft.com/sts/v1.0/issuetoken"
+OPENAI_API_BASE : "https://usndiipdnaoai01.openai.azure.com/"
+API_TYPE : "azure"
+API_VERSION : "2023-03-15-preview"
+
+GPT_DEPLOYMENT_NAME : "iipins-gpt-3"
+
+SUMMARISATION_TEMPERATURE : 0.2
+SUMMARISATION_MAX_TOKENS : 1500
+SUMMARISATION_N : 1
+
+ENT_EXT_TEMPERATURE :  0.2
+ENT_EXT_MAX_TOKEN : 1600
+ENT_EXT_N : 1
+
+EMAIL_MAX_TOKEN : 1600
+EMAIL_TEMPERATURE : 0.4
